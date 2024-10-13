@@ -3,14 +3,15 @@ package com.example.myapp
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.material3.*
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.material.*
 import androidx.compose.runtime.*
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.Modifier
-import androidx.compose.material.icons.Icons  // Import for Material Icons
-import androidx.compose.material.icons.filled.Menu  // Import for Menu icon
-import androidx.compose.material.icons.filled.MoreVert  // Import for More icon
-import com.example.scaffoldapp.ui.theme.ScaffoldAppTheme
+import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Menu
+import androidx.compose.material.icons.filled.MoreVert
+import com.example.myapp.ui.theme.MyAppTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
